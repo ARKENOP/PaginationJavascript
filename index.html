@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<title>Pagination JavaScript</title> 
+	<link rel="stylesheet" href="css/style.css"> 
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head> 
+
+<body> 
+	<div id="data-container"> 
+		<h1>Paul SUPIOT</h1>
+        <h2>Pagination en JavaScript</h2> 
+		<div class="card-container"> 
+			<!--Bleu-->
+			<div class="card"> 
+				<img src= 'images/bleu/fleur-bleu.jpg' alt="Image 1"> 
+				<h3>Fleur Bleue</h3> 
+                <p>Blue Flower</p>
+			</div> 
+			<div class="card"> 
+				<img src= 'images/bleu/jean-bleu.jpg' alt="Image 2"> 
+				<h3>Jean Bleu</h3> 
+				<p>Blue Jean</p> 
+			</div> 
+			<div class="card"> 
+				<img src= 'images/bleu/roche-bleu.jpg' alt="Image 3"> 
+				<h3>Roche bleu</h3> 
+				<p>Blue Rock</p> 
+			</div> 
+			<div class="card"> 
+				<img src= 'images/bleu/oiseau-bleu.jpg'alt="Image 4"> 
+				<h3>Oiseau Bleu</h3> 
+				<p>Blue Bird</p> 
+			</div>
+			<!--Jaune-->
+			<div class="card"> 
+				<img src= 'images/jaune/rose-jaune.jpg' alt="Image 5"> 
+				<h3>Rose Jaune</h3> 
+                <p>Yellow Rose</p>
+			</div> 
+			<div class="card"> 
+				<img src= 'images/jaune/oiseau-jaune.jpg' alt="Image 6"> 
+				<h3>Oiseau Jaune</h3> 
+				<p>Yellow Bird</p> 
+			</div> 
+			<div class="card"> 
+				<img src= 'images/jaune/papillon-jaune.jpg' alt="Image 7"> 
+				<h3>Papillon Jaune</h3> 
+				<p>Yellow Butterfly</p> 
+			</div> 
+			<div class="card"> 
+				<img src= 'images/jaune/voiture-jaune.jpg'alt="Image 8"> 
+				<h3>Voiture Jaune</h3> 
+				<p>Yellow Car</p> 
+			</div>
+			<!--Rouge-->
+			<div class="card"> 
+				<img src= 'images/rouge/feuilles-rouge.jpg' alt="Image 9"> 
+				<h3>Feuilles Rouges</h3> 
+                <p>Red Leaves</p>
+			</div> 
+			<div class="card"> 
+				<img src= 'images/rouge/fraise-rouge.jpg' alt="Image 10"> 
+				<h3>Fraise Rouge</h3> 
+				<p>Red Strawberry</p> 
+			</div> 
+			<div class="card"> 
+				<img src= 'images/rouge/rose-rouge.jpg' alt="Image 11"> 
+				<h3>Rose Rouge</h3> 
+				<p>Red Rose</p> 
+			</div> 
+			<div class="card"> 
+				<img src= 'images/rouge/voiture-rouge.jpg'alt="Image 12"> 
+				<h3>Voiture Rouge</h3> 
+				<p>Red Car</p> 
+			</div>
+		</div> 
+	</div> 
+	<div class="pagination" id="pagination"> 
+        <a href="#" id="first">First</a>
+		<a href="#" id="prev">Previous</a> 
+		<a href="#" class="page-link" data-page="1">1</a> 
+		<a href="#" class="page-link" data-page="2">2</a> 
+		<a href="#" class="page-link" data-page="3">3</a> 
+		<a href="#" id="next">Next</a> 
+        <a href="#" id="last">Last</a>
+		<p id="page-numbers"></p> 
+	</div> 
+	<script src="js/script.js"></script>
+</body> 
+</html>
